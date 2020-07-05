@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldhuy0208/learning-advanced-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldhuy0208/learning-advanced-css/issues"
+  },
+  "homepage": "https://github.com/ldhuy0208/learning-advanced-css#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
