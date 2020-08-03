@@ -10,6 +10,10 @@
     display: block;
     animation: left-move-in;
     animation-duration: 1s;
+
+    @include respond(phone){
+      letter-spacing: 1rem;
+    }
   }
   &--sub {
     font-size: 2rem;
@@ -17,6 +21,10 @@
     letter-spacing: 1.74rem;
     display: block;
     animation: 1s right-move-in;
+
+    @include respond(phone){
+      letter-spacing: .5rem;
+    }
   }
 }
 

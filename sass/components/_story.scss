@@ -15,10 +15,10 @@
     width: 15rem;
     height: 15rem;
     float: left;
-    background-color: orangered;
     shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     margin-right: 3rem;
+    background-position: center;
   }
 
   &__img{
